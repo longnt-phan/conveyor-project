@@ -3,9 +3,6 @@
 Created on Sun Feb 18 15:26:07 2024
 @author: LongPhan
 
-Technical Assignment
-Visual Components's Application for Master Thesis Worker Position
-
 INTRODUCTION
 This project represents control code for an automation process - box delivery through a set of conveyors.
 The key elements are:
