@@ -1,5 +1,5 @@
 # conveyor-project
-INTRODUCTION
+INTRODUCTION <br>
 This project represents control code for an automation process - box delivery through a set of conveyors.
 The key elements are:
 Three conveyors (the 1st and 3rd are perpendicular and connected by the 2nd in the middle),
@@ -17,19 +17,19 @@ Another example is that conveyors can have the ability to connect with multiple 
 These inbound and outbound connections are one of the conditions to check 
 before delivering boxes between two conveyors.
 
-CODE MANAGEMENT AND USAGE
+CODE MANAGEMENT AND USAGE <br>
 There are three files concerning this project: Models.py, Apis.py, and main.py
 1. Models.py includes classes: Conveyor, RotatingConveyor, Sensor, and Box
 2. Apis.py includes APIs functions related to classes, plus Info and Safety/Exception-handling functions
 3. main.py is case-specific. It includes Control Logic and the main functions.
 
-ASSUMPTION
+ASSUMPTION <br>
 Some assumptions are made in project:
 - The system has no delay
 - Sensor detects box precisely at the surface of the box
 - Boxes after passing Sensor3 is removed after certain time
 
-CAN BE IMPROVED
+CAN BE IMPROVED <br>
 The project was completed in a very tight time frame, and the topic is niche in automation field.
 Hence, there are certainly many room to improve. Below are just a few:
 - Execution of box feeding methods
